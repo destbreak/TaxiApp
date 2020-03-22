@@ -26,6 +26,12 @@ namespace TaxiApp
               DriverStatus = "No";
               Console.WriteLine("On Duty              : {0}", DriverStatus);
             }
+            Console.WriteLine();
+        }
+
+        public void PickUpPassenger()
+        {
+            Console.WriteLine("{0} sedang menjemput penumpang", DriverName);
         }
     }
 }

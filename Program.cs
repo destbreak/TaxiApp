@@ -17,6 +17,7 @@ namespace TaxiApp
             taxi.NumPassenger = 10;
 
             taxi.TaxiInfo();
+            taxi.PickUpPassenger();
         }
     }
 }
