@@ -16,6 +16,7 @@ namespace TaxiApp
             taxi.OnDuty = true;
             taxi.NumPassenger = 10;
 
+            Console.Clear();
             taxi.TaxiInfo();
             taxi.PickUpPassenger();
             taxi.DropOffPassenger();
