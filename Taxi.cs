@@ -33,5 +33,10 @@ namespace TaxiApp
         {
             Console.WriteLine("{0} sedang menjemput penumpang", DriverName);
         }
+
+        public void DropOffPassenger()
+        {
+            Console.WriteLine("{0} selesai mengantar penumpang", DriverName);
+        }
     }
 }

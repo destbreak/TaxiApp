@@ -18,6 +18,9 @@ namespace TaxiApp
 
             taxi.TaxiInfo();
             taxi.PickUpPassenger();
+            taxi.DropOffPassenger();
+
+            Console.ReadKey();
         }
     }
 }
